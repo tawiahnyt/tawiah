@@ -3,18 +3,18 @@ export const BLUR_DELAY=0.04
 export const DATA = {
   personalData:{
     name:"tawiah",
-    description:"I am a Frontend Developer. I love to learn and explore new technologies and am passionate about problem-solving. I love to do most of the things using TypeScript.",
-    skill:["Javascript","Python",'TypeScript',"Node.js","React.js","Next.js", "Express.js","MongoDB","Docker",'GraphQL'],
+    description:"I am a Developer. I love to learn and explore new technologies and am passionate about problem-solving.",
+    skill:["Python", 'Data science', "Machine Learning", 'Cyber Security', 'Javascript', 'TypeScript',"Node.js","React.js","Next.js", "Express.js","MongoDB","Docker",'GraphQL'],
     email:"tawiahin4k@gmail.com",
     phone:"+233 508968239",
     link:[
       {
         name:"github",
-        url:"https://github.com/tawiahnyt/abt.yogesh"
+        url:"https://github.com/tawiahnyt/"
       },
       {
         name:"linkedin",
-        url:"https://www.linkedin.com/in/abt-yogesh"
+        url:"https://www.linkedin.com/in/david-tawiah"
       },
       {
         name:"x",
@@ -24,10 +24,6 @@ export const DATA = {
         name:"instagram",
         url:"https://instagram.com/im.yogesh_"
       },
-      {
-        name:"stackoverflow",
-        url:"https://stackoverflow.com/users/19811812/yogesh-singh?tab=profile"
-      }
     ],
     resume: "/SinghYogesh.pdf",
     aboutMe:`I'm a 25 y/o belonging to the Homo sapiens species 🤣 — a brother, a son, a friend, and a self-taught web developer and programmer. I have completed my **MCA (Master of Computer Applications)**, but my programming journey started much earlier. Back in the second year of my BSc (because my first year passed in sports 😁). My web development journey began with frontend development, using only **HTML**, **CSS**, and simple **JavaScript**. If you're curious about the technologies I know, here&apos;s the list: - **Python** (❤️) - **JavaScript** - Frameworks: **React.js**, **Next.js**, **Tailwind CSS** - **MERN Stack** (Currently Learning 🚀) Apart from coding and programming, I enjoy: - Playing **cricket** (🏏) — because touching grass is important! - Listening to **soft music** while watching clouds drift by 😳 - Playing mobile games like **Battle Royale** games When I&apos;m not doing any of the above. 
