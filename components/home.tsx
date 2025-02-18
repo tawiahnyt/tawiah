@@ -8,7 +8,6 @@ import { Download, Mail } from "lucide-react";
 
 function Home() {
     return (
-        <>
         <div className="min-h-[calc(100vh-6rem)] flex flex-col justify-center">
             <BlurFade delay={BLUR_DELAY}>
                 <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
@@ -54,7 +53,6 @@ function Home() {
             </BlurFade>
 
         </div>
-        </>
     );
 }
 
