@@ -6,7 +6,8 @@ import { BLUR_DELAY, DATA } from "@/resume-data/data";
 import BlurFade from "./blur-fade";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { Download, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
+// import { Download, Mail } from "lucide-react";
 import TextRotate from "@/fancy/components/text/text-rotate";
 
 function Home() {
