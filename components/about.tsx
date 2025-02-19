@@ -12,7 +12,7 @@ const AboutUS=()=>{
             <div className="max-w-4xl mx-auto">
                 <div className="text-center md:text-start">
                     <h2 className="text-3xl md:text-6xl font-bold mb-5 inline-flex items-center">
-                        <BlurFade delay={BLUR_DELAY * 2} className="mt-4">About US</BlurFade>
+                        <BlurFade delay={BLUR_DELAY * 2} className="mt-4">About Me</BlurFade>
                         
                         <div className="relative">
                             <span className="absolute top-2 size-1 md:size-3 bg-emerald-400 rounded-full" />

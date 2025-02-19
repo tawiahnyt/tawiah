@@ -13,14 +13,14 @@ function Home() {
   return (
     <div className="min-h-[calc(100vh-6rem)] flex flex-col justify-center">
       <BlurFade delay={BLUR_DELAY}>
-        <div className="flex">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white mt-2 pe-3">
+        <div className="flex items-center">
+          <h1 className="text-3xl md:text-6xl font-bold mb-4 text-white pe-3">
             Hi, I
           </h1>
           {"  "}
           <TextRotate
             texts={DATA.personalData.name}
-            mainClassName="text-white px-2 sm:px-2 md:px-3 bg-[#ff5941] overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg text-5xl md:text-6xl font-bold mb-4"
+            mainClassName="text-white px-2 sm:px-2 md:px-3 bg-[#ff5941] overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg text-3xl md:text-6xl font-bold mb-4"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}

@@ -8,6 +8,7 @@ import Project from "@/components/project";
 import Home from "@/components/home";
 import AboutUS from "@/components/about";
 import "./stacked-menu.css"
+import Education from "@/components/education";
 
 interface PageData {
   id: string;
@@ -21,10 +22,35 @@ const StackedMenu: React.FC = () => {
   const [isChecked, setIsChecked] = useState(false);
   
   const pages: PageData[] = [
-    { id: 'page1', title: 'ABOUT', background: '[#40916C]',content:(<AboutUS/>)},
-    { id: 'page2', title: 'EXPERIENCE', background: '[#8D4B55]', content:(<Experience/>)},
-    { id: 'page3', title: 'PROJECT', background: '[#6998AB]' , content:(<div className="mb-10 pb-16"><Project/></div>)},
-    { id: 'page4', title: 'HOME', background: '[#B1D0E0]', content:(<Home/>) },
+    {
+      id: "page1",
+      title: "ABOUT",
+      background: "[#40916C]",
+      content: <AboutUS />,
+    },
+    {
+      id: "page2",
+      title: "EXPERIENCE",
+      background: "[#8D4B55]",
+      content: <Experience />,
+    },
+    {
+      id: "page3",
+      title: "EDUCATION",
+      background: "[#8D4B55]",
+      content: <Education />,
+    },
+    {
+      id: "page4",
+      title: "PROJECT",
+      background: "[#6998AB]",
+      content: (
+        <div className="mb-10 pb-16">
+          <Project />
+        </div>
+      ),
+    },
+    { id: "page5", title: "HOME", background: "[#B1D0E0]", content: <Home /> },
   ];
 
   useEffect(() => {
