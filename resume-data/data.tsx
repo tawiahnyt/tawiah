@@ -2,7 +2,7 @@ export const BLUR_DELAY=0.04
 
 export const DATA = {
   personalData: {
-    name: "tawiah",
+    name: ["am tawiah ✽", "am a Developer", "❤️ Python", "🚀🚀🚀🚀"],
     description:
       "I am a  Developer. I love to learn and explore new technologies and am passionate about problem-solving. I love to do most of the things using Python.",
     skill: [
