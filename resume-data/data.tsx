@@ -59,16 +59,16 @@ export const DATA = {
     ],
     resume: "/SinghYogesh.pdf",
     aboutMe: `
-Hey there! 👋 I’m **David Tawiah**, a **developer and problem-solver** who loves learning and exploring new technologies. My journey into programming started out of curiosity, and over time, it has turned into a passion. Whether it’s **building web applications**, **designing APIs**, or **experimenting with AI models**, I’m always excited to take on new challenges.  
+Hey there! 👋 I’m **David Tawiah**, a **developer and problem-solver** who loves learning and exploring new technologies. My journey into programming started out of curiosity, and over time, it has turned into a passion. Whether it’s **building web applications**, **designing APIs**, or **experimenting with AI models**, I’m always excited to take on new challenges.
 
-I primarily work with **Python** (❤️), but I also enjoy **frontend and backend development**. My tech stack includes:  
-💻 **Languages & Frameworks:** Python (Flask, Django), JavaScript, React.js, Next.js, Tailwind CSS  
-🛠️ **Full-Stack Technologies:** MERN Stack (Currently Exploring 🚀)  
-🔐 **Interests:** Cybersecurity, Data Science, and AI  
+I primarily work with **Python** (❤️), but I also enjoy **frontend and backend development**. My tech stack includes:
+💻 **Languages & Frameworks:** Python (Flask, Django), JavaScript, React.js, Next.js, Tailwind CSS
+🛠️ **Full-Stack Technologies:** MERN Stack (Currently Exploring 🚀)
+🔐 **Interests:** Cybersecurity, Data Science, Machine Learning and AI
 
-When I’m not coding, you’ll probably find me **cooking up something delicious** 🍳, **reading self-development books** 📚, or just vibing to good music 🎶. 
+When I’m not coding, you’ll probably find me **cooking up something delicious** 🍳, **reading self-development books** 📚, or just vibing to good music 🎶.
 
-I believe in **continuous learning**, pushing boundaries, and **building solutions that matter**. Let’s connect and create something awesome! 🚀  
+I believe in **continuous learning**, pushing boundaries, and **building solutions that matter**. Let’s connect and create something awesome! 🚀
 
 ---
 That&apos;s pretty much everything about me.
