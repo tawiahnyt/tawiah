@@ -1,9 +1,10 @@
 "use client"
-import { BLUR_DELAY, DATA } from "@/resume-data/data";
+// import { BLUR_DELAY, DATA } from "@/resume-data/data";
+import { BLUR_DELAY } from "@/resume-data/data";
 import BlurFade from "./blur-fade";
 import { ReactNode } from "react";
-import { CircleCheckBig, MoveRight } from "lucide-react";
-import { Button } from "./ui/button";
+// import { CircleCheckBig, MoveRight } from "lucide-react";
+// import { Button } from "./ui/button";
 
 
 interface Project {
@@ -33,7 +34,7 @@ const Project=()=>{
         </div>
       </BlurFade>
 
-      <div className="flex flex-col gap-1 md:gap-10 pb-20 md:pb-0 font-sans">
+      {/* <div className="flex flex-col gap-1 md:gap-10 pb-20 md:pb-0 font-sans">
         {DATA.projectData.map((project,index)=>(
           <div 
             key={project.title} 
@@ -84,7 +85,7 @@ const Project=()=>{
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   )
 }
