@@ -15,7 +15,7 @@ function Home() {
     <div className="min-h-[calc(100vh-6rem)] flex flex-col justify-center">
       <BlurFade delay={BLUR_DELAY}>
         <div className="flex items-center">
-          <h1 className="text-3xl md:text-6xl font-bold mb-4 text-white pe-3">
+          <h1 className="text-3xl md:text-6xl font-bold mb-4 text-white pe-3 whitespace-pre-wrap">
             Hi, I
           </h1>
           {"  "}
