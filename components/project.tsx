@@ -34,6 +34,13 @@ const Project=()=>{
         </div>
       </BlurFade>
 
+      <div className="flex flex-col gap-1 md:gap-10 pb-20 md:pb-0 font-sans items-center justify-center h-full">
+    <h1 className="text-center text-4xl font-bold text-gradient bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+        Taking a break... I'll be back with something epic!
+    </h1>
+</div>
+
+
       {/* <div className="flex flex-col gap-1 md:gap-10 pb-20 md:pb-0 font-sans">
         {DATA.projectData.map((project,index)=>(
           <div 
